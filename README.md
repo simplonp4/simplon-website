@@ -1,5 +1,3 @@
-# simplon-website
-
 # Maquette du site web
 
 ![Maquette-simplon](https://img.shields.io/badge/Maquette-SIMPLON-red")
