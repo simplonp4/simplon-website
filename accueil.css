@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.logo{
+    display: flex;
+    height: 40px;
+    width: 250px;
+    margin-left: 5%;
+}
+
+.mon-navbar{
+    /* margin-top: 5px; */
+    background: #ffff;
+    box-shadow: 1px 1px 1px rgb(252, 248, 248);
+    /* cette propriete permet de faire en cas si le contenu de la page masque le menu etant donner que le menu es fixe voir le cidessu */
+    z-index: 99;
+}
+.mon-navbar .navlinkaccueil{
+    border-bottom: #CE0033 solid;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+.nav-link{
+    border-bottom: transparent solid;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+.mon-navbar .nav-link:hover{
+    padding-bottom: 25px;
+    border-bottom-color:#CE0033;
+}
+.btn-contact{
+    font-style: normal;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.monstylebtn{
+    border-radius: 20px;
+    height: 50px;
+    width: 170px;
+    margin-top: 2%;
+    font-size:large;
+}
+.titre-banner {
+    color: rgb(252, 248, 248);
+    font-size: 48px;
+    position: relative;
+    
+}
+.sous-titre-banner{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+.contactbtn{
+    border-radius: 20px;
+}
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(58, 57, 57, 0.5)),url('images/mentor.jpeg') center center fixed
+    no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+.slide{
+    display: flex;
+    justify-content: center;
+    margin-top: 360px; 
+}
+.slide1{
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    background: #ffff;
+    border-color: transparent;
+    margin-left: 13px;
+    margin-right: 22px;
+}
+.slide3{
+    height: 12px;
+    width: 50px;
+    border-radius: 20px;
+    background: #ffff;
+    border-color: transparent;
+    margin-left: 13px;
+}
+.sectionImage{
+    height: 600px;
+    margin-top: 5px;
+    border-radius: 20px;
+    width: 700px;
+}
+.sout-section-simplon {
+    font-size: 22px;
+}
+.titre-simplon-senegal{
+    color: #CE0033;
+}
+
+/* CSS Section 3 */
+.titre-section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #CE0033;
+}
+.section3-image{
+    border-radius: 10px;
+}
+.evenmentcase{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 130px;
+    background: #CE0033;
+    border-radius: 10px;
+}
+.cercledate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    border-color: transparent;
+    background: #CE0033;
+    color: #ffff;
+}
+.plusactualite{
+    display: flex;
+    justify-content: end;
+    font-size: large;
+}
+.plusactualite ,a{
+    text-decoration: none;
+    color: #CE0033;
+    padding-right: 20px;
+}
+.plusactualite ,a:hover{
+    color: #CE0033;
+}
+.nex-evnement{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.nex-evnement-btn{
+    height: 2px;
+    width: 50px;
+    border-radius: 2px;
+    background: #ffff;
+    border-color: transparent;
+    margin-left: 13px;
+}
+
+/* .date-div{
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 370px;
+    background: #CE0033;
+    width: auto;
+    color: rgb(252, 248, 248);
+    border-radius: 0 0 10px 10px;
+} */
+/* .case-clendrier{
+    display: flex;
+    justify-content: center;
+    color: rgb(252, 248, 248);
+    align-items: center;
+    height: 40px;
+    width: 25px;
+    background: #CE0033;
+    margin-bottom: -15px;
+} */
+/* .section3{
+    height: 200px;
+    width: 100%;
+    background: chartreuse;
+} */
+/* Fin Css Section 3 */
+
+
+
+/* Section decouvertes */
+.banner-decouvertes{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(58, 57, 57, 0.5)),url('images/mentor.jpeg') center center
+    no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.nos-chiffre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CE0033;
+    height: 170px;
+    position: relative;
+    margin-top: -70px;
+    padding-bottom: 5px;
+}
+
+/* Fin section decouvertes
+
+/* Section Footer */
+.banner-footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(58, 57, 57, 0.5)),url('images/bagroundfoouter.png') center center
+    no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.case-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    width: 20px;
+
+}
+.icone-r-s{
+    display: flex;
+    flex-direction: row;
+}
+.envoi{
+    display: flex;
+    flex-direction: row;
+    
+}
+.envoi-input{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 0 0 10px;
+    width: 160px;
+    height: 60px;
+}
+.btn-joindre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CE0033;
+    border-color: transparent;
+    color: #ffff;
+    border-radius: 0 10px 10px 0px;
+    height: 60px;
+    width: 70px;
+    font-size: large;
+
+}
+.pied-bas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #CE0033;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+/* Fin section footer */
+
+
+/* Mon propre media query */
+@media only screen and (min-width:320px) and (max-width:1024px){
+    .nos-chiffre{
+        flex-direction: column;
+        height: 100%;
+        
+    }
+    .banner-footer{
+        height: auto;
+    }
+    .icone-r-s{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .envoi-input , .btn-joindre{
+        height: auto;
+        width: auto;
+        border-radius: 10px 10px 10px 10px;
+        margin-bottom: 5px;
+    }
+    .envoi{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .slide{
+        margin-top: auto;
+    }
+    .slide1 , .slide3{
+        /* margin-left: auto;
+        margin-right: auto; */
+        margin-top: 40px;
+    }
+}
