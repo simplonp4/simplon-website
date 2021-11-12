@@ -37,25 +37,50 @@
     margin-bottom: 1%;
 }
 .monstylebtn{
-    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 215px;
+    height: 63px;
+    border-radius: 103px;
     height: 50px;
     width: 170px;
     margin-top: 2%;
-    font-size:large;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
 }
 .titre-banner {
     color: rgb(252, 248, 248);
-    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
     position: relative;
     
 }
 .sous-titre-banner{
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
 }
 .contactbtn{
-    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    background: #CE0033;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 25px;
 }
 .banner{
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(58, 57, 57, 0.5)),url('images/mentor.jpeg') center center fixed
@@ -86,18 +111,36 @@
     margin-left: 13px;
 }
 .sectionImage{
-    height: 600px;
-    margin-top: 5px;
-    border-radius: 20px;
-    width: 700px;
+    position: static;
+    object-fit: cover;
+    width: 496px;
+    height: 557px;
+    left: 0px;
+    top: 5.5px;
+    border-radius: 30px;
+    flex: none;
+    flex-grow: 0;
 }
 .sout-section-simplon {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 20px;
-    font-weight: lighter;
+    /* display: flex;
+    flex-wrap: wrap; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    color: #000000; 
+}
+.section-de-simplon-senegla{
+    background: linear-gradient(253.7deg, 
+    rgba(206, 0, 51, 0.1386) -20.13%,
+     rgba(255, 249, 249, 0) 100%);
+
 }
 .titre-simplon-senegal{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
     color: #CE0033;
 }
 
@@ -106,10 +149,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 65px;
     color: #CE0033;
 }
 .section3-image{
     border-radius: 10px;
+}
+.titre-actualite{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1C1D28;
+}
+.sous-titre-section3{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 140%;
+    color: #CE0033;
+}
+.contenu-actualite{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #525560;
 }
 .evenmentcase{
     display: flex;
@@ -139,6 +207,11 @@
 }
 .plusactualite ,a{
     text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: -0.02em;
     color: #CE0033;
     padding-right: 20px;
 }
@@ -198,8 +271,8 @@
 }
 .nos-chiffre{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     background: #CE0033;
     height: 170px;
     position: relative;
@@ -263,14 +336,15 @@
 
 }
 .pied-bas{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
     background: #CE0033;
-    height: 50px;
+    height: 70px;
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
 }
 
 /* Fin section footer */
@@ -280,6 +354,7 @@
 @media only screen and (min-width:320px) and (max-width:1024px){
     .nos-chiffre{
         flex-direction: column;
+        flex-wrap: wrap;
         height: 100%;
         
     }
@@ -287,8 +362,10 @@
         height: auto;
     }
     .icone-r-s{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
     }
     .envoi-input , .btn-joindre{
         height: auto;
@@ -306,6 +383,31 @@
     .slide1 , .slide3{
         /* margin-left: auto;
         margin-right: auto; */
-        margin-top: 100px;
+        margin-top: 30px;
+    }
+    .titre-banner{
+        font-size: 50px;
+    }
+    .titre-simplon-senegal{
+        font-size: 30px;
+    }
+    .sectionImage{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        border-radius: 20px;
+    }
+    .pied-bas{
+       
+        font-size: 15px;
+        margin-bottom: 0;
+        height: auto;
+    }
+    .sout-section-simplon{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        color: #000000; 
     }
 }
