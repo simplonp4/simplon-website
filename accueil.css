@@ -203,17 +203,21 @@
 .plusactualite{
     display: flex;
     justify-content: end;
-    font-size: large;
-}
-.plusactualite ,a{
-    text-decoration: none;
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
     line-height: 34px;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.02em;;
+}
+.plusactualite ,a{
+    text-decoration: none;
+    /* font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: -0.02em; */
     color: #CE0033;
-    padding-right: 20px;
+    /* padding-right: 20px; */
 }
 .plusactualite ,a:hover{
     color: #CE0033;
@@ -309,6 +313,7 @@
 .icone-r-s{
     display: flex;
     flex-direction: row;
+    
 }
 .envoi{
     display: flex;
