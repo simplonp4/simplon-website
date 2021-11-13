@@ -294,12 +294,12 @@
     height: 400px;
 }
 
-.case-footer{
+/* .case-footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .logo-footer{
     display: flex;
@@ -344,7 +344,7 @@
     background: #CE0033;
     height: 70px;
     width: 100%;
-    margin-bottom: 1px;
+    /* margin-bottom: 1px; */
     font-style: normal;
     font-weight: lighter;
     font-size: 24px;
@@ -370,7 +370,7 @@
         display: flex;
         /* flex-wrap: wrap; */
         flex-direction: row;
-        flex-wrap: wrap;
+        justify-content: space-around;
     }
     .envoi-input , .btn-joindre{
         height: auto;
@@ -388,7 +388,7 @@
     .slide1 , .slide3{
         /* margin-left: auto;
         margin-right: auto; */
-        margin-top: 30px;
+        margin-top: 120px;
     }
     .titre-banner{
         font-size: 50px;
@@ -403,10 +403,11 @@
         border-radius: 20px;
     }
     .pied-bas{
-       
         font-size: 15px;
-        margin-bottom: 0;
+        /* margin-bottom: 5px; */
         height: auto;
+        font-size: 11px;
+        line-height: 8pxpx;
     }
     .sout-section-simplon{
         font-style: normal;
