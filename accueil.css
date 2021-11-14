@@ -343,46 +343,92 @@
     margin-bottom: 3em;
     margin-top: -15px;
 }
-.colr1{
+.case-photo-formateur{
     position: relative;
     box-shadow: 0px 3px 67px 0px #C3C3C340;
-
-    /* background: #CE0033; */
     Width:498px;
     Height:397px;
-    /* width: 82%; */
     margin-left:8.47%;
     margin-right: 56.94%;
-    /* height: 498px; */
     margin-top: 5px;
     margin-bottom: 5px;
-    /* filter: drop-shadow(0px 3px 67px 
-    rgba(195, 195, 195, 0.25)); */
     
 }
-.phot{
+.phot-description-formateur{
+    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.roug{
+.contenu-formateur{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 229,85px;
+    height: 124,16px;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.btn-slide{
+    display: flex;
+    justify-content: center;
+}
+.btn-slide1{
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    background: #CE0033;
+    border-color: transparent;
+    margin-left: 13px;
+    margin-right: 22px;
+}
+.btn-slide2{
+    background: #CE0033;
+    border-color: transparent;
+    height: 12px;
+    width: 50px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+.line-arret{
+    margin-left: 80%;
+    margin-bottom: -40px;
+    height: 75px;
+    width: 6px;
+    background: #CE0033;
+}
+.photo-formateur{
     /* height: 100x; */
     width: 226px;
     height: 259px;
-    background: #CE0033;
+    /* background: #CE0033; */
     margin-left: -54px;
     margin-top: -20px;
     border-radius: 15px;  
     box-shadow: 10px 8px 34px 0px #B9B5B540;
 }
-.voir-plus{
-    margin-left: 37.99%;
+.voir-plus-div{
+    margin-left: 75%;
+    Width :112px;
+    Height :34px;
+    margin-top: -70px;
+    
+}
+.voir-plus{ 
+    border-radius: 20px;
+
+  
 }
 .nom{
+    position: absolute;
     margin-top: 39.48%;
     margin-left: 10%;
 }
 .titre{
+    position:absolute;
     
 margin-left: 10.03%;
 font-style: normal;
@@ -393,32 +439,26 @@ font-style: normal;
 
 }
 .souligne-nom {
-    height: 2px;
-    width: 150px;
+    /* position:absolute ; */
+    height: 3px;
+    width: 136px;
     background: black;
-    margin-left: 13%;
-    margin-bottom: 10px;
-    margin-top: -5px;
+    margin-top: -10px;
 }
 .colr2{
     position: relative;
     box-shadow: 0px 3px 67px 0px #C3C3C340;
-    /* background: #CE0033; */
     width: 82%;
-    /* margin-left: 56.32%; */
     margin-left: 8.87%;
     height: 498px;
     margin-top: 5px;
-    margin-bottom: 5px;
-        /* filter: drop-shadow(0px 3px 67px 
-        rgba(195, 195, 195, 0.25)); */
-    
+    margin-bottom: 5px; 
 }
 /* Fin section formateur */
 
 
 /* Mon propre media query */
-@media only screen and (min-width:320px) and (max-width:1024px){
+@media only screen and (min-width:320px) and (max-width:1025px){
     .nos-chiffre{
         flex-direction: column;
         justify-content: center;
@@ -486,30 +526,65 @@ font-style: normal;
         height: auto;
         margin: 5px;
     }
-    .phot{
+    .phot-description-formateur{
         flex-direction: column;
     }
-    .roug{
+    .photo-formateur{
         margin-left: -0;
         margin-top: 0;
         width: 100%;
         margin-bottom: 15px;
     }
     .nom{
-        margin-top: 5px;
+        margin-left: 24.87%;
+        margin-right: 59.41%;
+        margin-top: 39.48%;
+        margin-bottom: 60.27%;
     }
+    .case-photo-formateur{
+        Width:298px;
+        Height:497px;
+        /* width: 82%; */
+        margin-left:4.47%;
+        margin-right: 4.47%;
 
-    /* .colr1 .colr2{
-        margin-left: 10%;
-        margin-right: 10%;
+    }
+    .contenu-formateur{
+        margin-top: 0;
+        margin-bottom: 20%;
         height: auto;
-        
-    } */
-    .roug{
-        border-radius: 100%;
+    }
+    .voir-plus-div{
+        margin-left: 74%;
+        Width :100px;
+        Height :34px;
+        margin-top: -60px;
+    }
+    .photo-formateur{
+        width: 226px;
+        height: 240px;
+        /* background: #CE0033; */
+        margin-left: -18px;
+        margin-top: -35px;
+        border-radius: 15px;
+        /* border-radius: 100%; */
         height: 226px;
     }
     .titre{
         margin-left: 0;
+    }
+    .line-arret{
+        margin-left: 85%;
+        margin-bottom: -30px;
+        height: 75px;
+        width: 6px;
+        background: #CE0033;
+    }
+    .case-photo-formateur{
+        width: auto;
+        
+    }
+    .souligne-nom{
+        /* display: none; */
     }
 }
