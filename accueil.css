@@ -457,6 +457,81 @@ font-style: normal;
 /* Fin section formateur */
 
 
+
+/* Partie petite histoire de la communauter */
+.case-ptite-story{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 3px 67px 0px #C3C3C340;
+    Height:415px;
+    border-radius: 15px;
+}
+
+.contenu-story{
+    /* margin-top: 5em;  */
+    margin-left: 6.3%;
+    Width:335.69px;
+    Height: 206.7px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    
+}
+
+.image-ptite-story{
+    display: flex;
+    margin-left: 8.25%;
+    Width:86px;
+    Height: 86px;
+    border-radius: 100%;
+}
+.nom-formateur{
+    display: flex;
+    flex-direction: column;
+}
+.image-and-name{
+    margin-top: -3rem;
+    margin-left: 2rem ;
+    display: flex;
+    flex-direction: row;
+}
+.nom-fonction{
+    margin-left: 8%;
+    margin-top: 1em;
+}
+.cercle-bas{
+    position: absolute;
+    Width :94px;
+    Height: 96px;
+    border-radius: 100%;
+    background: rgba(206, 0, 51, 0.09);
+    margin-left: 68%;
+    margin-top: -2.5%;
+
+}
+
+.cercle-haut{
+    position: absolute;
+    Width :94px;
+    Height: 96px;
+    border-radius: 100%;
+    background: rgba(206, 0, 51, 0.09);
+    margin-left: -2%;
+    margin-top: -2.5%;
+
+}
+/* Fin petite histoire de la communauter */
+
+
+
+
+
+
+
+
+
+
+
 /* Mon propre media query */
 @media only screen and (min-width:320px) and (max-width:1025px){
     .nos-chiffre{
@@ -584,5 +659,16 @@ font-style: normal;
         width: auto;
         
     }
-   
+
+    .contenu-story{
+        height: auto;
+        width: auto;
+    }
+    .image-and-name{
+        margin-top: -1rem;
+    }
+    .cercle-bas, .cercle-haut,.souligne-titre {
+        display: none;  
+    }
+
 }
