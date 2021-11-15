@@ -522,6 +522,48 @@ font-style: normal;
 }
 /* Fin petite histoire de la communauter */
 
+/* Section contactez nous */
+.champ-nom{
+    margin-top: 20px;      
+    margin-right: 5%;
+    Width:369px;
+    Height: 74px;
+    border-radius: 10px;
+    margin-bottom: 3%;
+}
+.message-text{
+    margin-top: 20px; 
+    Width:700px;
+    Height:200px;
+    border-radius: 10px;    
+}
+
+.formulaire{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 70%;
+    height: 600px;
+    /* background: #CE0033; */
+    /* margin-bottom: 5px; */
+    
+}
+.contact{
+    margin-top: 3%;
+    width: 30%;
+    height: 600px;
+    background: greenyellow;
+    margin-bottom: 5px;
+}
+
+.div-champ{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Fin section contactez nous */
+
 
 
 
@@ -668,6 +710,15 @@ font-style: normal;
     }
     .cercle-bas, .cercle-haut,.souligne-titre {
         display: none;  
+    }
+
+    .champ-nom , .message-text{
+        height: auto;
+        width: auto;
+       
+    }
+    .div-champ{
+        flex-direction: column;
     }
 
 }
