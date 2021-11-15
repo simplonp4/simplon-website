@@ -549,12 +549,25 @@ font-style: normal;
     /* margin-bottom: 5px; */
     
 }
+.icone-and-contenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .contact{
-    margin-top: 3%;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
     width: 30%;
     height: 600px;
-    background: greenyellow;
     margin-bottom: 5px;
+    margin-left: -2rem;
+}
+.contenu-contact{
+    margin-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .div-champ{
@@ -720,5 +733,38 @@ font-style: normal;
     .div-champ{
         flex-direction: column;
     }
+
+    .dispositif{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .formulaire , .contact{
+        /* margin-bottom: 3rem; */
+        justify-content: center;
+        height: auto;
+        width: auto;
+        margin-left: 0;
+    }
+    .champ-nom , .message-text {
+        width: 100%;
+    }
+    .icone-and-contenu{
+        justify-content: center;
+    }
+    .icone-and-contenu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenu-contact{
+        justify-content: center;
+        align-items: center;
+    }
+    /* .test-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
 
 }
