@@ -465,6 +465,8 @@ font-style: normal;
     box-shadow: 0px 3px 67px 0px #C3C3C340;
     Height:415px;
     border-radius: 15px;
+    z-index: 56;
+    background-color: white;
 }
 
 .contenu-story{
@@ -530,12 +532,16 @@ font-style: normal;
     Height: 74px;
     border-radius: 10px;
     margin-bottom: 3%;
+    box-shadow: 4px 4px 26px 0px #5E6D6C57;
+
 }
 .message-text{
     margin-top: 20px; 
     Width:700px;
     Height:200px;
-    border-radius: 10px;    
+    border-radius: 10px; 
+    box-shadow: 4px 4px 26px 0px #5E6D6C57;
+   
 }
 
 .formulaire{
@@ -576,6 +582,65 @@ font-style: normal;
 }
 
 /* Fin section contactez nous */
+
+
+/* section apprenant */
+
+.apprenant{
+    display: flex;
+    flex-direction: column;
+}
+.contenu-apprenant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Width:681px;
+    Height:426px;
+    background: #F9F8F8;
+}
+.text-apprenat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Width :538.08px;
+    Height :153.24px;
+    /* font-size: larger; */
+    
+}
+.apprenant-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.aprena{
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CE0033;
+    color: #FFFFFF;
+    width:177px ;
+    height:41px ;
+    margin-left: -3rem;
+    margin-bottom: -4rem;
+    position: relative;
+    z-index: 4;
+    font-size: large;
+    
+}
+.descrition-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-style: bold;
+    font-size: larger;
+}
+
+
+
+/* Fin section apprenant */
 
 
 
@@ -761,10 +826,23 @@ font-style: normal;
         justify-content: center;
         align-items: center;
     }
-    /* .test-footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
+
+    .text-apprenat, .contenu-apprenant{
+        width: auto;
+        height: auto;
+    }
+
+    .apprenant-row{
+        flex-direction: column;
+    }
+    video{
+        height: 100%;
+        width: 100%;
+    }
+    .aprena{
+        width: 100px;
+        margin-left: 0;
+        margin-bottom: -4rem;
+    }
 
 }
