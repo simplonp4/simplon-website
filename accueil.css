@@ -525,7 +525,7 @@ font-style: normal;
     border-radius: 100%;
     background: rgba(206, 0, 51, 0.09);
     margin-left: -2%;
-    margin-top: -2.5%;
+    /* margin-top: -2.5%; */
 
 }
 /* Fin petite histoire de la communauter */
@@ -670,10 +670,25 @@ font-style: normal;
     z-index: 4;
     font-size: large;
 }
-
-
-
 /* Fin section apprenant */
+
+ /* Une partie de actualiter le div date */
+ .date-div{
+     position: absolute;
+     width: 40px;
+     height: 70px;
+     background: #CE0033;
+     color: #FFFFFF;
+     border-radius: 0 0 15px 15px;
+     margin-left: 16rem;
+     margin-top: -2rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+ }
+ /* Fin div actualite div date */
 
 
 
@@ -872,11 +887,13 @@ font-style: normal;
         height: 100%;
         width: 100%;
     }
-    .aprena , .aprena-peda{
-        display: none;
-        /* width: 100px;
-        margin-left: 0;
-        margin-bottom: -4rem; */
+    .aprena {
+        /* display: none; */
+        margin-left: 0.099rem;
+        margin-bottom: -3rem;
+    }
+    .aprena-peda{
+        margin-bottom: -3rem;
     }
     .apprenant-row1{
         flex-direction: column-reverse;
