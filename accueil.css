@@ -11,6 +11,10 @@
     width: 250px;
     margin-left: 5%;
 }
+.dropdown-toggle::after{
+    /* background: #CE0033 !important; */
+    color: #CE0033;
+}
 
 .mon-navbar{
     /* margin-top: 5px; */
