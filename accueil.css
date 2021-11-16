@@ -282,15 +282,14 @@
     align-items: center;
 } */
 
-.logo-footer{
+/* .logo-footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50px;
     width: 20px;
-
-}
+} */
 .icone-r-s{
     display: flex;
     flex-direction: row;
@@ -330,7 +329,14 @@
     font-weight: lighter;
     font-size: 24px;
     line-height: 33px;
-    color: #FFFFFF;
+    color: #FFFFFF;  
+}
+.copyright{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.log-footer {
+    margin-left: 5rem; 
 }
 
 /* Fin section footer */
@@ -882,5 +888,21 @@ font-style: normal;
     .pedagogie-col{
         margin-left: 0;
     }
+
+    .log-footer{
+        margin-left: 0;
+    }
+
+    .copyright{
+        margin: 0;
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .img-footer {
+        margin-left: 3rem;
+    }
+
+
+    
 
 }
