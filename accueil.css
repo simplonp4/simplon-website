@@ -612,6 +612,11 @@ font-style: normal;
     flex-direction: row;
 }
 
+.apprenant-row1{
+    display: flex;
+    flex-direction: row;
+}
+
 .aprena{
     border-radius: 0 10px 10px 0;
     display: flex;
@@ -636,6 +641,28 @@ font-style: normal;
     margin-right: 1rem;
     font-style: bold;
     font-size: larger;
+}
+
+.pedagogie-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3rem;
+}
+.aprena-peda{
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CE0033;
+    color: #FFFFFF;
+    width:180px;
+    height:41px ;
+    /* margin-left: rem; */
+    margin-bottom: -4rem;
+    position: relative;
+    z-index: 4;
+    font-size: large;
 }
 
 
@@ -839,10 +866,21 @@ font-style: normal;
         height: 100%;
         width: 100%;
     }
-    .aprena{
-        width: 100px;
+    .aprena , .aprena-peda{
+        display: none;
+        /* width: 100px;
         margin-left: 0;
-        margin-bottom: -4rem;
+        margin-bottom: -4rem; */
+    }
+    .apprenant-row1{
+        flex-direction: column-reverse;
+    }
+    .video-pedad{
+        height: 100%;
+        width: 100%;
+    }
+    .pedagogie-col{
+        margin-left: 0;
     }
 
 }
