@@ -10,132 +10,145 @@
     <title>La Fabrique</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar-lg navbar-expand navbar-light shadow-sm container-fluid" style="background-color: white; position: fixed ; z-index: 2000;text-align: center;">
-            <div class="">
-                <div class="row mt-3">
-                    <div class="col-3 mb-2">
-                        <a class="navbar-brand" href="#"><img src="img/logoSimplon.png" alt=""></a>
-                    </div>
-                    <div class=" col-5 collapse mb-2 navbar-collapse" id="navbarScroll">
-                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px; font-weight: bold; color: black;">
-                        <li class="nav-item">
-                            <a class="nav-link active mx-4" href="#">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  active text-danger" aria-current="page"  href="#" >Fabrique</a>
-                            <div class="bg-danger mt-2 w-100 text-dangerx h-25"></div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active mx-4" href="#" >Formations</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active mx-4" href="#" >Partenariats</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active mx-4" href="#" >Espaces</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active mx-4" href="#" >Entités</a>
-                        </li>
-                        </ul>
-                    </div>
-                    <div class="col-4 mb-2">
-                        <form class="d-flex">
-                            <input class="form-control me-2 ms-5 w-25" type="search" placeholder="Rechercher">
-                            <button class="btn" type="submit"><img src="img/loup.png" alt=""></button>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                  FR
-                                </button>
-                                <ul class="dropdown-menu">
-                                  <li><a class="dropdown-item" href="#">EN</a></li>
-                                </ul>
-                            </div>
-                            <button class="btn btn-danger  buton-contact">Contact</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <br><br><br><br>
-
-<h1 class="text-danger fw-bold titre">La petite histoire</h1>
-<div id="carousel-petite-histoire" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carousel-petite-histoire" data-bs-slide-to="0" class="active text-danger" aria-current="true" aria-label="Slide 1">o</button>
-      <button type="button" data-bs-target="#carousel-petite-histoire" data-bs-slide-to="1" aria-label="Slide 2" class="text-danger">o</button>
-      <button type="button" data-bs-target="#carousel-petite-histoire" data-bs-slide-to="2" aria-label="Slide 3" class="text-danger">o</button>
+<header>
+<nav class="navbar navbar-expand-lg navbar-light shadow-sm container-fluid" style="background-color: white; position: fixed ; z-index: 2000;">
+    <div class="">
+        <a class="" href="#"><img src="img/logoSimplon.png"  class="w-75" alt=""></a>
     </div>
+    <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#navBarr" aria-controls="navBarr" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex justify-content-end" >
+        <div class= "d-flex justify-content-start" id="navBarr">
+            <div class="collapse navbar-collapse mt-2">
+                <ul class="navbar-nav me-auto my-lg-0 navbar-nav-scroll text-center" style="--bs-scroll-height: 100px; font-weight: bold; color: black;">
+                <li class="nav-item">
+                    <a class="nav-link active mx-2" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  active text-danger fabrique" aria-current="page"  href="#" >Fabrique</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active mx-2" href="#" >Formations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active mx-2" href="#" >Partenariats</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active mx-2" href="#" >Espaces</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active mx-2" href="#" >Entités</a>
+                </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse">
+                <input class="form-control w-75 " type="search" placeholder="Rechercher">  
+                <button class="btn" type="submit"><img src="img/loup.png" alt=""></button>
+            </div>
+            <div class="collapse navbar-collapse">
+            <form class="d-flex">
+                <div class="btn-group">
+                    <button type="button" class="btn btn dropdown-toggle text-danger" data-bs-toggle="dropdown" aria-expanded="false">
+                        <samp class="text-dark">Fr</samp>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">EN</a></li>
+                    </ul>
+                </div>
+                <button class="btn btn-danger  buton-contact">Contact</button>
+            </form>
+            </div>
+        </div>
+    </div>
+</nav>
+<br><br><br><br>  
+</header>
+
+                <!-- La petite histoire -->
+
+<h1 class="fw-bold titre">La petite histoire</h1>
+<section id="carousel-petite-histoire" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <div class="container">
-            <div class="row mt-5 mb-5">
-                <div class="col-6">
-                    <div class="deco-principal bg-danger text-light">
-                        <h2 class="m-5 title-ps">L'ouverture de la Fabrique</h2>
-                        <h1 class="fw-bold annee">2017</h1>
+        <div class="carousel-item active" data-bs-interval="10000">
+            <div class="container-fluid">
+                <div class="row mt-2 mb-5">
+                    <div class="col-xl-6 col-12">
+                        <div class="deco-principal card h-auto w-auto text-light">
+                            <h2 class="m-5 title-ps text-end fw-md-bold">L'ouverture de la Fabrique</h2>
+                            <h2 class="fw-md-bold annee text-end">2017</h2>
+                        </div>
                     </div>
-                    <div class="deco1 bg-danger">.</div>
-                    <div class="deco2 bg-danger">.</div>
-                </div>
-                <div class="col-6">
-                    <div class="bg-histoire bg-danger w-75 Regular shadow mt-5"></div>
-                    <div class="petite-histoire w-75 Regular shadow bg-body">
-                        <img src="img/‘’(1).png " class="guillemets-rouge" alt="">
-                        <p class="m-4 lh-lg fst-italic">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                        <img src="img/‘’.png" class="float-end guillemets-noir" alt="">
+                    <div class="col-xl-6 col-12 mt-xl-auto mt-5">
+                        <div class="petite-histoire w-50 w-lg-75 mx-auto mx-lg-05 bg-body">
+                            <div class="guillemets-rouge"> 
+                                <img src="img/‘’(1).png " alt="">
+                            </div>
+                            <div>
+                                <p class="m-4 lh-lg fst-italic">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,alley a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            </div>
+                            <div class="guillemets-noir w-100">
+                                <img src="img/‘’.png" style=" float: right; margin-top:-10%; margin-right:5%;" alt="">
+                            </div>
+                            <br>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="10000">
-        <div class="container">
-        <div class="row mt-5 mb-5">
-            <div class="col-6">
-                <div class="deco-principal bg-danger text-light">
-                    <h2 class="m-5 title-ps">L'ambiance de la Fabrique</h2>
-                    <h1 class="fw-bold annee">2019</h1>
+        <div class="carousel-item" data-bs-interval="10000">
+        <div class="container-fluid">
+            <div class="row mt-2 mb-5">
+                <div class="col-xl-6 col-12">
+                    <div class="deco-principal card h-auto w-auto text-light">
+                        <h2 class="m-5 title-ps text-end fw-md-bold">L'ambiance de la Fabrique</h2>
+                        <h2 class="fw-md-bold annee text-end">2019</h2>
+                    </div>
                 </div>
-                <div class="deco1 bg-danger">.</div>
-                <div class="deco2 bg-danger">.</div>
-            </div>
-            <div class="col-6">
-                <div class="bg-histoire bg-danger w-75 Regular shadow mt-5"></div>
-                <div class="petite-histoire w-75 Regular shadow bg-body">
-                    <img src="img/‘’(1).png " class="guillemets-rouge" alt="">
-                    <p class="m-4 lh-lg fst-italic">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                    <img src="img/‘’.png" class="float-end guillemets-noir" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="10000">
-        <div class="container">
-        <div class="row mt-5 mb-5">
-            <div class="col-6">
-                <div class="deco-principal bg-danger text-light">
-                    <h2 class="m-5 title-ps">Creation d'une 2 fabrique</h2>
-                    <h1 class="fw-bold annee mb-5">2020</h1>
-                </div>
-                <div class="deco1 bg-danger">.</div>
-                <div class="deco2 bg-danger">.</div>
-            </div>
-            <div class="col-6">
-                <div class="bg-histoire bg-danger w-75 Regular shadow mt-5"></div>
-                <div class="petite-histoire w-75 Regular shadow bg-body">
-                    <img src="img/‘’(1).png " class="guillemets-rouge" alt="">
-                    <p class="m-4 lh-lg fst-italic">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                    <img src="img/‘’.png" class="float-end guillemets-noir" alt="">
+                <div class="col-xl-6 col-12 mt-xl-auto mt-5">
+                    <div class="petite-histoire w-50 w-lg-75 mx-auto mx-lg-05 bg-body">
+                        <div class="guillemets-rouge"> 
+                            <img src="img/‘’(1).png " alt="">
+                        </div>
+                        <div>
+                            <p class="m-4 lh-lg fst-italic">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,alley a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                        <div class="guillemets-noir w-100">
+                            <img src="img/‘’.png" style=" float: right; margin-top:-10%; margin-right:5%;" alt="">
+                        </div>
+                    <br>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-      </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+        <div class="container-fluid">
+            <div class="row mt-2 mb-5">
+                <div class="col-xl-6 col-12">
+                    <div class="deco-principal card h-auto w-auto text-light">
+                        <h2 class="m-5 title-ps text-end fw-md-bold">Creation d'une 2 fabrique</h2>
+                        <h2 class="fw-md-bold annee text-end">2020</h2>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-12 mt-xl-auto mt-5">
+                    <div class="petite-histoire w-50 w-lg-75 mx-auto mx-lg-05 bg-body">
+                        <div class="guillemets-rouge"> 
+                            <img src="img/‘’(1).png " alt="">
+                        </div>
+                        <div>
+                            <p class="m-4 lh-lg fst-italic">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,alley a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                        <div class="guillemets-noir w-100">
+                            <img src="img/‘’.png" style=" float: right; margin-top:-10%; margin-right:5%;" alt="">
+                        </div>
+                    <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carousel-petite-histoire" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -145,61 +158,57 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  </div>
+    <br><br><br><br> 
+</section>
+            
+                <!-- Notre pédagogie -->
 
-    <br><br><br><br>    
-    <h1 class="text-danger fw-bold  mt-5 titre">Notre pédagogie</h1><br><br>
-    <div class="container">
-        <div class="row mt-5">
-            <div class="col-7">
-                <iframe width="622" height="350" src="https://www.youtube.com/embed/0PeqnLq12V8" class="video-pedagogie" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h1 class="fw-bold  mt-5 titre">Notre pédagogie</h1><br><br>
+<section class="container">
+        <div class="row mt-5 ms-2">
+            <div class="col-lg-7">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/0PeqnLq12V8" class="video-pedagogie" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="col-5">
+            <div class="col-lg-5">
                 <h3 class="text-danger fw-bolder">La pédagogie active</h3>
                 <p class="mt-3 lh-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
         </div>
         <div class="row mt-5">
-            <div class="col-7 blog">
+            <div class="col-lg-7">
                 <h3 class="text-danger fw-bolder">Les 6 pliers de notre pédagogie</h3>
-                <div class="row ">
-                    <div class="col-5 Larger shadow m-4"><h1 class="text-danger mt-3">01</h1>
+                <div class="row d-xl-flex justify-content-evenly mt-3 mb-3">
+                    <div class="col-6 Larger shadow blog"><h1 class="text-danger mt-3 fw-bold">01</h1>
                         <h6><b>Devenir un professionnel compétent</b></h6>
                         <p class="mt-2">Nous formons les apprenants à devenir des professionnels compétents en situation de travail, grâce à l’Approche Par Compétences.</p>
-                        <div class="bg-danger text-danger foot"></div>
                     </div>
-                    <div class="col-5 Larger shadow m-4"><h1 class="text-danger mt-3">02</h1>
+                    <div class="col-6 Larger shadow blog"><h1 class="text-danger mt-3 fw-bold">02</h1>
                         <h6><b>Se former par l’action</b></h6>
                         <p class="mt-2">Nous formons les apprenants à devenir des professionnels compétents en situation de travail, grâce à l’Approche Par Compétences.</p>
-                        <div class="bg-danger text-danger foot"></div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-5 Larger shadow m-4"><h1 class="text-danger mt-3">03</h1>
+                <div class="row d-xl-flex justify-content-evenly mt-3 mb-3">
+                    <div class="col-6 Larger shadow blog"><h1 class="text-danger mt-3 fw-bold">03</h1>
                         <h6><b>Se former par l’action</b></h6>
                         <p class="mt-2">Nous formons les apprenants à devenir des professionnels compétents en situation de travail, grâce à l’Approche Par Compétences.</p>
-                        <div class="bg-danger text-danger foot"></div>
                     </div>
-                    <div class="col-5 Larger shadow m-4"><h1 class="text-danger mt-3">04</h1>
+                    <div class="col-6 Larger shadow blog"><h1 class="text-danger mt-3 fw-bold">04</h1>
                         <h6><b>Se former par l’action</b></h6>
                         <p class="mt-2">Nous formons les apprenants à devenir des professionnels compétents en situation de travail, grâce à l’Approche Par Compétences.</p>
-                        <div class="bg-danger text-danger foot"></div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-5 Larger shadow m-4"><h1 class="text-danger mt-3">05</h1>
+                <div class="row d-xl-flex justify-content-evenly mt-3 mb-3">
+                    <div class="col-6 Larger shadow blog"><h1 class="text-danger mt-3 fw-bold">05</h1>
                         <h6><b>Se former par l’action</b></h6>
                         <p class="mt-2">Nous formons les apprenants à devenir des professionnels compétents en situation de travail, grâce à l’Approche Par Compétences.</p>
-                        <div class="bg-danger text-danger foot"></div>
                     </div>
-                    <div class="col-5 Larger shadow m-4"><h1 class="text-danger mt-3">06</h1>
+                    <div class="col-6 Larger shadow blog"><h1 class="text-danger mt-3 fw-bold">06</h1>
                         <h6><b>Se former par l’action</b></h6>
                         <p class="mt-2">Nous formons les apprenants à devenir des professionnels compétents en situation de travail, grâce à l’Approche Par Compétences.</p>
-                        <div class="bg-danger text-danger foot"></div>
                     </div>
                 </div>
             </div>
-            <div class="col-5 titre">
+            <div class="col-lg-5 titre">
                 <div id="carousel-notre-pedagogie" class="carousel slide" data-bs-ride="carousel" >
                     <div class="carousel-inner">
                 <div class="bg-danger text-danger Larger shadow cadre"></div>
@@ -221,220 +230,219 @@
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Next</span>
                     </button>
-                    <div class="carousel-indicators" style="margin-left: 50px;">
-                        <button type="button" data-bs-target="#carousel-notre-pedagogie" data-bs-slide-to="0" class="active text-danger" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel-notre-pedagogie" data-bs-slide-to="1" aria-label="Slide 2" class="text-danger"></button>
-                        <button type="button" data-bs-target="#carousel-notre-pedagogie" data-bs-slide-to="2" aria-label="Slide 3" class="text-danger"></button>
-                      </div>
                   </div>
 
-
-
             </div>
-            <img src="img/cercleCouper.png" class="cercle-couper" alt="Img incompatible avec le navigateur">
-            <img src="img/cercleDeco.png" class="cercle-deco" alt="Img incompatible avec le navigateur">
+            <img src="img/cercleCouper.png" class="cercle-couper d-none d-xl-inline-block" alt="Img incompatible avec le navigateur">
+            <img src="img/cercleDeco.png" class="cercle-deco d-none d-xl-inline-block" alt="Img incompatible avec le navigateur">
         </div>
-    </div>
-<br><br><br><br>    
+        <br><br><br><br> 
+</section>
 
-    <h1 class="text-danger fw-bold  mt-5 titre">Nos valeurs</h1><br><br>
-    <div class="container">
+            <!-- Nos valeurs -->
+
+<h1 class="fw-bold  mt-5 titre">Nos valeurs</h1><br><br>
+<section class="container">
         <div class="row">
-            <div class="col-5">
+            <div class="col-lg-5 col-12">
                 <h3 class="text-danger titre-valeur" id="titreValeur">content</h3>
                 <p class="mt-3 lh-lg text-valeur" id="text-valeur">content</p><br>
-                <div class="voir-plus" id="voir-plus">
+                <div class="voir-plus mb-5" id="voir-plus">
                     content
                 </div>
             </div>
-            <div class="col-1">
+            <div class="col-lg-1 d-none d-lg-inline-block">
                 <div id="triangle">
 
                  </div>
             </div>
-            <div class="col-6">
-                    <div class="row regular shadow rectangle buton-valeur" onclick="contenu(0);">
-                        <div class="col-2"><div class="numero"><h3 class="p-4 text-danger">01</h3></div></div>
+            <div class="col-lg-6 col-12">
+                    <div class="row regular shadow rectangle buton-valeur d-flex justify-content-lg-around justify-content-center" onclick="contenu(0);">
+                        <div class="col-2"><div class="numero"><h3 class="p-4 text-danger fw-bold mx-auto ">01</h3></div></div>
                         <div class="col-9">
-                            <div class="donnee">
+                            <div class="donnee mx-5 mx-md-0">
                                 <h3>Respect</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                                <p class="d-none d-md-inline-block">Lorem Ipsum is simply dummy text of the printing.</p>
                             </div>
                         </div>
                     </div>
                 <br>
-                    <div class="row regular shadow rectangle buton-valeur" onclick="contenu(1);">
-                        <div class="col-2"><div class="numero"><h3 class="p-4 text-danger">02</h3></div></div>
+                    <div class="row regular shadow rectangle buton-valeur d-flex justify-content-lg-around justify-content-center" onclick="contenu(1);">
+                        <div class="col-2"><div class="numero"><h3 class="p-4 text-danger fw-bold mx-auto ">02</h3></div></div>
                         <div class="col-9">
-                            <div class="donnee">
+                            <div class="donnee mx-5 mx-md-0">
                                 <h3>Engagement</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                                <p class="d-none d-md-inline-block">Lorem Ipsum is simply dummy text of the printing.</p>
                             </div>
                         </div>
                     </div>
                 <br>
-                    <div class="row regular shadow rectangle buton-valeur" onclick="contenu(2);">
-                        <div class="col-2"><div class="numero"><h3 class="p-4 text-danger">03</h3></div></div>
+                    <div class="row regular shadow rectangle buton-valeur d-flex justify-content-lg-around justify-content-center" onclick="contenu(2);">
+                        <div class="col-2"><div class="numero"><h3 class="p-4 text-danger fw-bold mx-auto ">03</h3></div></div>
                         <div class="col-9">
-                            <div class="donnee">
+                            <div class="donnee mx-5 mx-md-0">
                                 <h3>Focus</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                                <p class="d-none d-md-inline-block">Lorem Ipsum is simply dummy text of the printing.</p>
                             </div>
                         </div>
                     </div>
                 <br>
-                    <div class="row regular shadow rectangle buton-valeur" onclick="contenu(3);">
-                        <div class="col-2"><div class="numero"><h3 class="p-4 text-danger">04</h3></div></div>
+                    <div class="row regular shadow rectangle buton-valeur d-flex justify-content-lg-around justify-content-center" onclick="contenu(3);">
+                        <div class="col-2"><div class="numero"><h3 class="p-4 text-danger fw-bold mx-auto ">04</h3></div></div>
                         <div class="col-9">
-                            <div class="donnee">
+                            <div class="donnee mx-5 mx-md-0">
                                 <h3>Discipline</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                                <p class="d-none d-md-inline-block">Lorem Ipsum is simply dummy text of the printing.</p>
                             </div>
                         </div>
                     </div>
             </div>
         </div>
-    </div> 
-    <br><br><br><br>    
+        <br><br><br><br>
+</section> 
 
-    <h1 class="text-danger fw-bold  mt-5 titre">Nos chiffres</h1><br><br>
-    <div class="container-fluid chiffre">
+            <!-- Nos chiffres -->
+
+ <h1 class="fw-bold  mt-5 titre">Nos chiffres</h1><br><br>
+<section class="container-fluid chiffre">
         <div class="row">
-            <div class="col-4 mt-5 mb-5">
+            <div class="col-sm-4 mt-5 mb-5">
                 <h1 class="text-light nombre titre">50%</h1>
                 <p class="text-light text-nombre titre">De femmes dans les formations</p>
             </div>
 
-            <div class="col-4 mt-5 mb-5">
+            <div class="col-sm-4 mt-5 mb-5">
                 <h1 class="text-light nombre titre">385</h1>
                 <p class="text-light text-nombre titre">Apprenant.es formé.es depuis l'ouverture dans le pays</p>
             </div>
 
-            <div class="col-4 mt-5 mb-5">
+            <div class="col-sm-4 mt-5 mb-5">
                 <h1 class="text-light nombre titre">96</h1>
                 <p class="text-light text-nombre titre">Enfants sensiblisé.e.s au numérique</p>
             </div>
         </div>
-    </div>
-    
     <br><br><br><br> 
-    
-    <h1 class="text-danger fw-bold  mt-5 titre">Notre équipe</h1><br><br>
-    <p class="text-equipe titre">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<br>   Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br><br><br>
-    <div id="carousel-nos-partenaires" class="carousel slide" data-bs-ride="carousel">
+</section>
+
+                    <!-- Notre Equipe -->
+
+<h1 class="fw-bold  mt-5 titre">Notre équipe</h1>
+<br><br>
+<p class="text-equipe titre">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<br>   Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br><br><br>
+<section id="carousel-nos-partenaires" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="7000">
-              <div class="container mt-3 mb-3">
+              <div class="container mt-1 mb-3">
                     <div class="row">
-                        <div class="col-4">
-                            <div class="cart-equipe Regular shadow">
+                        <div class="col-12 col-md-6 col-lg-4 d-none d-md-inline-block">
+                            <div class="cart-equipe Regular mx-auto shadow">
                                 <img src="img/profil.png" class="imgEquipe" alt="Image Non pris en cherge par le navigateur">
-                                <h2 class="mt-3">Ngoor SECK</h2>
-                                <h3 class="text-danger mt-3">Formateur</h3><br>
-                                <p class="textMembreEquipe opacity-75 mt-3"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br>
-                                <img src="img/twitter.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
-                                <img src="img/facebook-logo.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
-                                <img src="img/linkedin.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
+                                <h2 class="mt-1">Ngoor SECK</h2>
+                                <h3 class="text-danger mt-1">Formateur</h3><br>
+                                <p class="textMembreEquipe opacity-75 mt-1"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br>
+                                <img src="img/twitter.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
+                                <img src="img/facebook-logo.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
+                                <img src="img/linkedin.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
                             </div>
                         </div>
-                        <div class="col-4">
-                            <div class="cart-equipe Regular shadow">
+                        <div class="col-12 col-md-6 col-lg-4 d-lg-inline-block d-none">
+                            <div class="cart-equipe Regular mx-auto shadow">
                                 <img src="img/profil(1).png" class="imgEquipe" alt="Image Non pris en cherge par le navigateur">
-                                <h2 class="mt-3">Samba KANE</h2>
-                                <h3 class="text-danger mt-3">Formateur</h3><br>
-                                <p class="textMembreEquipe opacity-75 mt-3"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br>
-                                <img src="img/twitter.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
-                                <img src="img/facebook-logo.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
-                                <img src="img/linkedin.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
+                                <h2 class="mt-1">Samba KANE</h2>
+                                <h3 class="text-danger mt-1">Formateur</h3><br>
+                                <p class="textMembreEquipe opacity-75 mt-1"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br>
+                                <img src="img/twitter.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
+                                <img src="img/facebook-logo.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
+                                <img src="img/linkedin.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
                             </div>
                         </div>
-                        <div class="col-4">
-                            <div class="cart-equipe Regular shadow">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="cart-equipe Regular mx-auto shadow">
                                 <img src="img/profil(2).png" class="imgEquipe" alt="Image Non pris en cherge par le navigateur">
-                                <h2 class="mt-3">Secou SANE</h2>
-                                <h3 class="text-danger mt-3">Coach</h3><br>
-                                <p class="textMembreEquipe opacity-75 mt-3"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br>
-                                <img src="img/twitter.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
-                                <img src="img/facebook-logo.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
-                                <img src="img/linkedin.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
+                                <h2 class="mt-1">Secou SANE</h2>
+                                <h3 class="text-danger mt-1">Coach</h3><br>
+                                <p class="textMembreEquipe opacity-75 mt-1"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br>
+                                <img src="img/twitter.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
+                                <img src="img/facebook-logo.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
+                                <img src="img/linkedin.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
                             </div>
                         </div>
                     </div>
                 </div>  
           </div>
           <div class="carousel-item" data-bs-interval="7000">
-              <div class="container mt-3 mb-3">
+              <div class="container mt-1 mb-3">
                     <div class="row">
-                        <div class="col-4">
-                            <div class="cart-equipe Regular shadow">
+                        <div class="col-12 col-md-6 col-lg-4 d-lg-inline-block d-none">
+                            <div class="cart-equipe Regular mx-auto shadow">
                                 <img src="img/profil.png" class="imgEquipe" alt="Image Non pris en cherge par le navigateur">
-                                <h2 class="mt-3">Ngoor SECK</h2>
-                                <h3 class="text-danger mt-3">Formateur</h3><br>
-                                <p class="textMembreEquipe opacity-75 mt-3"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br>
-                                <img src="img/twitter.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
-                                <img src="img/facebook-logo.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
-                                <img src="img/linkedin.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
+                                <h2 class="mt-1">Ngoor SECK</h2>
+                                <h3 class="text-danger mt-1">Formateur</h3><br>
+                                <p class="textMembreEquipe opacity-75 mt-1"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br>
+                                <img src="img/twitter.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
+                                <img src="img/facebook-logo.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
+                                <img src="img/linkedin.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
                             </div>
                         </div>
-                        <div class="col-4">
-                            <div class="cart-equipe Regular shadow">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="cart-equipe Regular mx-auto shadow">
                                 <img src="img/profil(1).png" class="imgEquipe" alt="Image Non pris en cherge par le navigateur">
-                                <h2 class="mt-3">Samba KANE</h2>
-                                <h3 class="text-danger mt-3">Formateur</h3><br>
-                                <p class="textMembreEquipe opacity-75 mt-3"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br>
-                                <img src="img/twitter.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
-                                <img src="img/facebook-logo.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
-                                <img src="img/linkedin.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
+                                <h2 class="mt-1">Samba KANE</h2>
+                                <h3 class="text-danger mt-1">Formateur</h3><br>
+                                <p class="textMembreEquipe opacity-75 mt-1"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br>
+                                <img src="img/twitter.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
+                                <img src="img/facebook-logo.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
+                                <img src="img/linkedin.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
                             </div>
                         </div>
-                        <div class="col-4">
-                            <div class="cart-equipe Regular shadow">
+                        <div class="col-12 col-md-6 col-lg-4 d-none d-md-inline-block">
+                            <div class="cart-equipe Regular mx-auto shadow">
                                 <img src="img/profil(2).png" class="imgEquipe" alt="Image Non pris en cherge par le navigateur">
-                                <h2 class="mt-3">Secou SANE</h2>
-                                <h3 class="text-danger mt-3">Coach</h3><br>
-                                <p class="textMembreEquipe opacity-75 mt-3"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br>
-                                <img src="img/twitter.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
-                                <img src="img/facebook-logo.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
-                                <img src="img/linkedin.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
+                                <h2 class="mt-1">Secou SANE</h2>
+                                <h3 class="text-danger mt-1">Coach</h3><br>
+                                <p class="textMembreEquipe opacity-75 mt-1"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br>
+                                <img src="img/twitter.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
+                                <img src="img/facebook-logo.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
+                                <img src="img/linkedin.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
                             </div>
                         </div>
                     </div>
                 </div>  
           </div>
           <div class="carousel-item" data-bs-interval="7000">
-              <div class="container mt-3 mb-3">
+              <div class="container mt-1 mb-3">
                     <div class="row">
-                        <div class="col-4">
-                            <div class="cart-equipe Regular shadow">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="cart-equipe Regular mx-auto shadow">
                                 <img src="img/profil.png" class="imgEquipe" alt="Image Non pris en cherge par le navigateur">
-                                <h2 class="mt-3">Ngoor SECK</h2>
-                                <h3 class="text-danger mt-3">Formateur</h3><br>
-                                <p class="textMembreEquipe opacity-75 mt-3"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br>
-                                <img src="img/twitter.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
-                                <img src="img/facebook-logo.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
-                                <img src="img/linkedin.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
+                                <h2 class="mt-1">Ngoor SECK</h2>
+                                <h3 class="text-danger mt-1">Formateur</h3><br>
+                                <p class="textMembreEquipe opacity-75 mt-1"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br>
+                                <img src="img/twitter.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
+                                <img src="img/facebook-logo.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
+                                <img src="img/linkedin.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
                             </div>
                         </div>
-                        <div class="col-4">
-                            <div class="cart-equipe Regular shadow">
+                        <div class="col-12 col-md-6 col-lg-4 d-none d-md-inline-block">
+                            <div class="cart-equipe Regular mx-auto shadow">
                                 <img src="img/profil(1).png" class="imgEquipe" alt="Image Non pris en cherge par le navigateur">
-                                <h2 class="mt-3">Samba KANE</h2>
-                                <h3 class="text-danger mt-3">Formateur</h3><br>
-                                <p class="textMembreEquipe opacity-75 mt-3"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br>
-                                <img src="img/twitter.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
-                                <img src="img/facebook-logo.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
-                                <img src="img/linkedin.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
+                                <h2 class="mt-1">Samba KANE</h2>
+                                <h3 class="text-danger mt-1">Formateur</h3><br>
+                                <p class="textMembreEquipe opacity-75 mt-1"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br>
+                                <img src="img/twitter.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
+                                <img src="img/facebook-logo.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
+                                <img src="img/linkedin.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
                             </div>
                         </div>
-                        <div class="col-4">
-                            <div class="cart-equipe Regular shadow">
+                        <div class="col-12 col-md-6 col-lg-4 d-lg-inline-block d-none">
+                            <div class="cart-equipe Regular mx-auto shadow">
                                 <img src="img/profil(2).png" class="imgEquipe" alt="Image Non pris en cherge par le navigateur">
-                                <h2 class="mt-3">Secou SANE</h2>
-                                <h3 class="text-danger mt-3">Coach</h3><br>
-                                <p class="textMembreEquipe opacity-75 mt-3"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br>
-                                <img src="img/twitter.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
-                                <img src="img/facebook-logo.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
-                                <img src="img/linkedin.png" alt="icone non pris en cherge par le navigateur" class="mt-3">
+                                <h2 class="mt-1">Secou SANE</h2>
+                                <h3 class="text-danger mt-1">Coach</h3><br>
+                                <p class="textMembreEquipe opacity-75 mt-1"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br>
+                                <img src="img/twitter.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
+                                <img src="img/facebook-logo.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
+                                <img src="img/linkedin.png" alt="icone non pris en cherge par le navigateur" class="mt-1">
                             </div>
                         </div>
                     </div>
@@ -449,28 +457,24 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button><br><br><br><br>
-        <div class="carousel-indicators" style="margin-left: 1300px;">
-            <button type="button" data-bs-target="#carousel-nos-partenaires" data-bs-slide-to="0" class="active text-danger" aria-current="true" aria-label="Slide 1">o</button>
-            <button type="button" data-bs-target="#carousel-nos-partenaires" data-bs-slide-to="1" aria-label="Slide 2" class="text-danger">o</button>
-            <button type="button" data-bs-target="#carousel-nos-partenaires" data-bs-slide-to="2" aria-label="Slide 3" class="text-danger">o</button>
-          </div>
-      </div>  
+        <br><br>  
+</section>  
     
-    <br><br>
+                    <!-- Recrutement -->
 
-    <h1 class="text-danger fw-bold  mt-5 titre">Recrutement</h1><br><br>
-    <div class="container">
+<h1 class="fw-bold  mt-5 titre">Recrutement</h1><br><br>
+<section class="container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6 col-12">
                 <img src="img/image1.png" class="shadow img-fluid" alt="icone non pris en cherge par le navigateur">
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-12">
                 <h3 class="text-danger">Pourquoi nous rejoindre ?</h3>
                 <p class="mt-3 lh-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div><br><br>
             <div class="row">
-                <div class="col-6"><br><br>
-                    <div class="offre-en-cours mt-2" style="margin-left: -25px; width: 99%;">
+                <div class="col-lg-6 col-12"><br><br>
+                    <div class="offre-en-cours mt-2">
                         <h3 class="titreOffre text-danger">Offres en cours</h3>
                             <div class="accordion" id="accordionOffre-en-cours">
                                 <div class="accordion-item">
@@ -481,11 +485,11 @@
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="premierEntete" data-bs-parent="#accordionOffre-en-cours">
                                     <div class="accordion-body row">
-                                        <div class="col-6">
+                                        <div class="col-lg-6 col-12">
                                             <h5 class="text-danger">Resume du poste</h5>
                                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-lg-6 col-12 d-flex justify-content-center justify-content-lg-start h-75">
                                             <div class="index-offre shadow">
                                                 <img src="img/bookmarkinbook.png" alt="icone non pris en cherge par le navigateur">  CDD<br>
                                                 <img src="img/Date.png" alt="icone non pris en cherge par le navigateur">  Plein temps<br>
@@ -493,7 +497,7 @@
                                                 <img src="img/clock.png" alt="icone non pris en cherge par le navigateur">  XX/XY/ZZ<br>
                                             </div>
                                         </div>
-                                        <div  class="titre">
+                                        <div  class="titre"><br>
                                             <button type="button" class="btn btn-danger buton-postuler shadow">Postuler</button>
                                         </div>
                                     </div>
@@ -507,11 +511,11 @@
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="secondEntete" data-bs-parent="#accordionOffre-en-cours">
                                     <div class="accordion-body row">
-                                        <div class="col-6">
+                                        <div class="col-lg-6 col-12">
                                             <h5 class="text-danger">Resume du poste</h5>
                                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-lg-6 col-12 d-flex justify-content-center justify-content-lg-start h-75">
                                             <div class="index-offre shadow">
                                                 <img src="img/bookmarkinbook.png" alt="icone non pris en cherge par le navigateur">  CDD<br>
                                                 <img src="img/Date.png" alt="icone non pris en cherge par le navigateur">  Plein temps<br>
@@ -519,7 +523,7 @@
                                                 <img src="img/clock.png" alt="icone non pris en cherge par le navigateur">  XX/XY/ZZ<br>
                                             </div>
                                         </div>
-                                        <div  class="titre">
+                                        <div  class="titre"><br>
                                             <button type="button" class="btn btn-danger buton-postuler shadow">Postuler</button>
                                         </div>
                                     </div>
@@ -533,11 +537,11 @@
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="troisiemEntete" data-bs-parent="#accordionOffre-en-cours">
                                     <div class="accordion-body row">
-                                        <div class="col-6">
+                                        <div class="col-lg-6 col-12">
                                             <h5 class="text-danger">Resume du poste</h5>
                                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-lg-6 col-12 d-flex justify-content-center justify-content-lg-start h-75">
                                             <div class="index-offre shadow">
                                                 <img src="img/bookmarkinbook.png" alt="icone non pris en cherge par le navigateur">  CDD<br>
                                                 <img src="img/Date.png" alt="icone non pris en cherge par le navigateur">  Plein temps<br>
@@ -545,7 +549,7 @@
                                                 <img src="img/clock.png" alt="icone non pris en cherge par le navigateur">  XX/XY/ZZ<br>
                                             </div>
                                         </div>
-                                        <div  class="titre">
+                                        <div  class="titre"><br>
                                             <button type="button" class="btn btn-danger buton-postuler shadow">Postuler</button>
                                         </div>
                                     </div>
@@ -555,8 +559,8 @@
                             <div class="href-afficer-plus"><a href="#" class="text-dark">Afficher plus <img src="img/fleche.png" alt="icone non pris en cherge par le navigateur"> </a></div>
                     </div>
                 </div>
-                <div class="col-6"><br><br>
-                    <form action="#" class="row" style="margin-left: -25px;">
+                <div class="col-lg-6 col-12"><br><br>
+                    <form action="#" class="row">
                         <div class="col-6">
                             <input type="text" class="form-control m-2 form-control-lg" placeholder="Prenom*">
                         </div>
@@ -588,69 +592,73 @@
                 </div>
             </div>
         </div>
-    </div><br><br><br><br>
+    
 
+        <br><br><br><br>       
+</section>
 
-    <h1 class="text-danger fw-bold  mt-5 titre">Nos Partenaires</h1><br><br><br>
-    <div id="carousel-nos-partenaire" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Partenariats    -->
+
+<h1 class="fw-bold  mt-5 titre">Partenariats</h1><br><br>
+<section id="carousel-nos-partenaire" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="7000">
                 <div class="container">
                     <div class="row">
-                        <div class="col-2"><img src="img/atos.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle2.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle3.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle4.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle5.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle6.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/atos.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle2.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle3.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle4.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle5.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle6.png" alt="icone non pris en cherge par le navigateur"></div>
                     </div>
                     <div class="row mt-5">
-                        <div class="col-2"><img src="img/atos.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle2.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle3.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle4.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle5.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle6.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/atos.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle2.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle3.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle4.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle5.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle6.png" alt="icone non pris en cherge par le navigateur"></div>
                     </div>
                 </div>
           </div>
           <div class="carousel-item" data-bs-interval="7000">
                 <div class="container">
                     <div class="row">
-                        <div class="col-2"><img src="img/atos.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle2.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle3.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle4.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle5.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle6.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/atos.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle2.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle3.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle4.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle5.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle6.png" alt="icone non pris en cherge par le navigateur"></div>
                     </div>
                     <div class="row mt-5">
-                        <div class="col-2"><img src="img/atos.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle2.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle3.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle4.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle5.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle6.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/atos.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle2.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle3.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle4.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle5.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle6.png" alt="icone non pris en cherge par le navigateur"></div>
                     </div>
                 </div>
           </div>
           <div class="carousel-item" data-bs-interval="7000">
                 <div class="container">
                     <div class="row">
-                        <div class="col-2"><img src="img/atos.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle2.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle3.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle4.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle5.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle6.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/atos.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle2.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle3.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle4.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle5.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle6.png" alt="icone non pris en cherge par le navigateur"></div>
                     </div>
                     <div class="row mt-5">
-                        <div class="col-2"><img src="img/atos.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle2.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle3.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle4.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle5.png" alt="icone non pris en cherge par le navigateur"></div>
-                        <div class="col-2"><img src="img/Rectangle6.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/atos.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle2.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle3.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle4.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle5.png" alt="icone non pris en cherge par le navigateur"></div>
+                        <div class="col-lg-2 col-sm-6 col-6 text-center"><img src="img/Rectangle6.png" alt="icone non pris en cherge par le navigateur"></div>
                     </div>
                 </div>
           </div>
@@ -662,92 +670,58 @@
         <button class="carousel-control-next" type="button" data-bs-target="#carousel-nos-partenaire" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
-        </button><br><br><br><br>
-        <div class="carousel-indicators" style="margin-left: 1300px;">
-            <button type="button" data-bs-target="#carousel-nos-partenaire" data-bs-slide-to="0" class="active text-danger" aria-current="true" aria-label="Slide 1">o</button>
-            <button type="button" data-bs-target="#carousel-nos-partenaire" data-bs-slide-to="1" aria-label="Slide 2" class="text-danger">o</button>
-            <button type="button" data-bs-target="#carousel-nos-partenaire" data-bs-slide-to="2" aria-label="Slide 3" class="text-danger">o</button>
-          </div>
-      </div>  
-    <br><br><br><br>
+        </button>    
+        <br><br><br><br> 
+</section>  
 
-    <footer class="container-fluid footer"><br><br><br>
-        <div class="row">
-            <div class="col-3">
-                <img src="img/logoSimplonWhite.png" alt="icone non pris en cherge par le navigateur" class="ms-5"><br><br>
-                <div class="rs">
-                    <img src="img/twitterq.png" alt="icone non pris en cherge par le navigateur" class="rs mx-1"> <img src="img/bx_bxl-facebook.png" alt="icone non pris en cherge par le navigateur" class="rs mx-1"><img src="img/uil_instagram.png" alt="icone non pris en cherge par le navigateur" class="rs mx-1">  <img src="img/logos_youtube-icon.png" alt="icone non pris en cherge par le navigateur" class="rs mx-1">
-                </div>
-            </div>
-            <div class="col-3 text-light">
-                <h2 class="">Voir plus</h2><br>
-                <a href="#" class="link-a">A propos</a><br>
-                <a href="#" class="link-a">Notre histoire</a><br>
-                <a href="#" class="link-a">Condition d’utilisation</a><br>
-                <a href="#" class="link-a">Politique de confidentialité</a><br>
-                <a href="#" class="link-a">FAQ</a>
-            </div>
-            <div class="col-3 text-light">
-                <h2>Coordonnées</h2><br>
-                <p class="p-footer">Cité keur Goor Gi<br>
-                    Dakar, Sicap, Libeté 2<br>
-                    Senegal</p><br><br>
-                <p class="p-footer">simplon@email.com<br>
-                    help@simplon.com<br>
-                    (221) 77 456 78 90<br>
-                    (221) 77 654 32 10</p>
-            </div>
-            <div class="col-3 text-light">
-                <h2>Notre Newsletter</h2><br>
-                <p class="p-footer">Souscrivez-vous à notre<br> newsletter pour ne manquer<br> aucune de nos activités</p><br><br>
-                <div class="input-group">
-                    <input type="text" class="form-control form-control-lg" placeholder="Email">
-                    <div class="input-group-append">
-                        <button class="btn bg-danger text-light h-100" type="button" id="texte-bouton" style="margin-right: 130px;">Joindre</button>
-                    </div><br>
-            </div>
-        </div><br><br><br><br><br>
-        <div class="row bande-footer bg-danger mt-5" style="height: 70px; padding: 20px; margin-left: -0.5px;">
-            <div class="col-6">
-                <p style="color: white;font-size: 20px;">© 2021 Simplon. All rights reserved.</p>
-            </div>
-            <div class="col-6">
-                <p style="color: white;font-size: 20px;" class="text-end">Made with <img src="img/coeur.png" alt="icone non pris en cherge par le navigateur"><strong> by SimplonP4</strong></p>
+                    <!-- Footer -->
+
+<footer class="container-fluid footer"><br><br><br>
+    <div class="row">
+        <div class="col-md-6 col-xl-3">
+            <img src="img/logoSimplonWhite.png" alt="icone non pris en cherge par le navigateur" class="ms-3"><br><br>
+            <div class="rs">
+                <img src="img/twitterq.png" alt="icone non pris en cherge par le navigateur" class="rs mx-1"> <img src="img/bx_bxl-facebook.png" alt="icone non pris en cherge par le navigateur" class="rs mx-1"><img src="img/uil_instagram.png" alt="icone non pris en cherge par le navigateur" class="rs mx-1">  <img src="img/logos_youtube-icon.png" alt="icone non pris en cherge par le navigateur" class="rs mx-1">
             </div>
         </div>
+        <div class="col-md-6 col-xl-3 text-light">
+            <h2 class="">Voir plus</h2><br>
+            <a href="#" class="link-a">A propos</a><br>
+            <a href="#" class="link-a">Notre histoire</a><br>
+            <a href="#" class="link-a">Condition d’utilisation</a><br>
+            <a href="#" class="link-a">Politique de confidentialité</a><br>
+            <a href="#" class="link-a">FAQ</a>
         </div>
-    </footer>
+        <div class="col-md-6 col-xl-3 text-light">
+            <h2>Coordonnées</h2><br>
+            <p class="p-footer">Cité keur Goor Gi<br>
+                Dakar, Sicap, Libeté 2<br>
+                Senegal</p><br><br>
+            <p class="p-footer">simplon@email.com<br>
+                help@simplon.com<br>
+                (221) 77 456 78 90<br>
+                (221) 77 654 32 10</p>
+        </div>
+        <div class="col-md-6 col-xl-3 text-light">
+            <h2>Notre Newsletter</h2><br>
+            <p class="p-footer">Souscrivez-vous à notre<br> newsletter pour ne manquer<br> aucune de nos activités</p><br><br>
+            <div class="input-group">
+                <input type="text" class="form-control form-control-lg" placeholder="Email">
+                <div class="input-group-append">
+                    <button class="btn bg-danger text-light h-100" type="button" id="texte-bouton" style="margin-right: 130px;">Joindre</button>
+                </div><br>
+        </div>
+    </div><br>
+    <div class="row bande-footer bg-danger" style=" margin-left: -0.5px;">
+        <div class="col-6">
+            <p style="color: white;font-size: 20px;">© 2021 Simplon. All rights reserved.</p>
+        </div>
+        <div class="col-6">
+            <p style="color: white;font-size: 20px;" class="text-end">Made with <img src="img/coeur.png" alt="icone non pris en cherge par le navigateur"><strong> by SimplonP4</strong></p>
+        </div>
+    </div>
+    </div>
+</footer>
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-<!-- 
-<div id="carousel-nos-partenaires" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-            
-      </div>
-      <div class="carousel-item" data-bs-interval="10000">
-            
-      </div>
-      <div class="carousel-item" data-bs-interval="10000">
-            
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-nos-partenaires" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carousel-nos-partenaires" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button><br><br><br><br>
-    <div class="carousel-indicators" style="margin-left: 1300px;">
-        <button type="button" data-bs-target="#carousel-nos-partenaires" data-bs-slide-to="0" class="active text-danger" aria-current="true" aria-label="Slide 1">o</button>
-        <button type="button" data-bs-target="#carousel-nos-partenaires" data-bs-slide-to="1" aria-label="Slide 2" class="text-danger">o</button>
-        <button type="button" data-bs-target="#carousel-nos-partenaires" data-bs-slide-to="2" aria-label="Slide 3" class="text-danger">o</button>
-      </div>
-  </div> -->
