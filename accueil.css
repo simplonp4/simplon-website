@@ -916,10 +916,11 @@ font-style: normal;
         /* flex-direction: column; */
     }
     .img-footer {
-        margin-left: 3rem;
+        margin-left: 3.5rem;
     }
 
-
-    
+    .date-div{
+        margin-left:12rem ;
+    }
 
 }
