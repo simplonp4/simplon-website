@@ -11,72 +11,80 @@
 </head>
 <body>
 
-                        <!-- Entete -->
+                <!-- Entete -->
 
 <header>
-<nav class="navbar navbar-expand-lg navbar-light shadow-sm container-fluid">
-    <div class="">
+<nav class="navbar navbar-expand-lg navbar-light shadow-sm w-100">
+    <div class="container-fluid ">
+    <div class="row">
         <a class="" href="#"><img src="img/logoSimplon.png"  class="w-75" alt=""></a>
     </div>
-    <button class="navbar-toggler bande-footer" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navBar" aria-controls="navBar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-        <span></span>
-    </button>
-    <div class="collapse navbar-collapse d-flex justify-content-end" >
-        <div class= "d-flex justify-content-start" id="navbarSupportedContent">
-            <div class="collapse navbar-collapse mt-2">
-                <ul class="navbar-nav me-auto my-lg-0 navbar-nav-scroll text-center ul-navbar">
-                <li class="nav-item">
-                    <a class="nav-link active mx-2" href="#">Accueil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link  active tec fabrique" aria-current="page"  href="#" >Fabrique</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active mx-2" href="#" >Formations</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active mx-2" href="#" >Partenariats</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active mx-2" href="#" >Espaces</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active mx-2" href="#" >Entités</a>
-                </li>
+        </button>
+        <div class="collapse navbar-collapse mt-2 row" id="navBar">
+            <div class="col-12 col-lg-10">
+                <ul class="navbar-nav me-auto my-lg-0 text-center ul-navbar d-flex justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active mx-2" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  active tec fabrique" aria-current="page"  href="#" >Fabrique</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mx-2" href="#" >Formations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mx-2" href="#" >Partenariats</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mx-2" href="#" >Espaces</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mx-2" href="#" >Entités</a>
+                    </li>
                 </ul>
             </div>
-            <div class="collapse navbar-collapse">
-                <input class="form-control w-75 " type="search" placeholder="Rechercher">  
-                <button class="btn" type="submit"><img src="img/loup.png" alt=""></button>
-            </div>
-            <div class="collapse navbar-collapse">
-            <form class="d-flex">
-                <div class="btn-group">
-                    <button type="button" class="btn btn dropdown-toggle tec" data-bs-toggle="dropdown" aria-expanded="false">
-                        <samp class="text-dark">Fr</samp>
+            <div class="d-flex justify-content-center col-12 col-lg-2">
+                <div class="btn-group d-none d-lg-inline-block">
+                    <button  class="btn btn dropdown-toggle tec" data-bs-toggle="dropdown" aria-expanded="false" type="button">
+                        <img src="img/loup.png" alt="">
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">EN</a></li>
+                        <li>
+                            <form action="#" class="">
+                                <input class="form-control w-100 " type="search" placeholder="Rechercher">
+                                <input type="submit" class="btn btn-red w-100" value="Rechercher">
+                            </form>
+                        </li>
                     </ul>
                 </div>
+                <form class="d-flex">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn dropdown-toggle tec" data-bs-toggle="dropdown" aria-expanded="false">
+                            <samp class="text-dark">Fr</samp>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">EN</a></li>
+                        </ul>
+                    </div>
+                </form>
                 <button class="btn buton-contact btn-red">Contact</button>
-            </form>
             </div>
         </div>
     </div>
 </nav>
-<br><br><br><br>  
+<br><br><br>
 </header>
 
                 <!-- La petite histoire -->
 
-<h1 class="fw-bold mb-5 titre">La petite histoire</h1>
-<section id="carousel-petite-histoire" class="carousel slide" data-bs-ride="carousel">
+<!-- <h1 class="fw-bold mb-5 titre">La petite histoire</h1> -->
+<!-- <section id="carousel-petite-histoire" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
             <div class="container-fluid">
-                <div class="row mt-2 mb-5">
+                <div class="row mb-5">
                     <div class="col-xl-6 col-12">
                         <div class="deco-principal card h-auto w-auto text-light">
                             <h2 class="m-5 title-ps text-end fw-md-bold">L'ouverture de la Fabrique</h2>
@@ -84,15 +92,15 @@
                         </div>
                     </div>
                     <div class="col-xl-6 col-12 mt-xl-auto mt-5">
-                        <div class="petite-histoire w-50 w-lg-75 mx-auto mx-lg-05 bg-body">
+                        <div class="petite-histoire mx-auto mx-lg-05 bg-body Regular shadow">
                             <div class="guillemets-rouge"> 
                                 <img src="img/‘’(1).png " alt="">
                             </div>
                             <div>
                                 <p class="m-4 lh-lg fst-italic">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,alley a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                             </div>
-                            <div class="guillemets-noir w-100">
-                                <img src="img/‘’.png" class="img-guillemets-noir" alt="">
+                            <div class="guillemets-noir w-100 card-footer">
+                                <img src="img/‘’.png" class="img-guillements-noir" alt="">
                             </div>
                             <br>
                         </div>
@@ -110,14 +118,14 @@
                     </div>
                 </div>
                 <div class="col-xl-6 col-12 mt-xl-auto mt-5">
-                    <div class="petite-histoire w-50 w-lg-75 mx-auto mx-lg-05 bg-body">
+                    <div class="petite-histoire mx-auto mx-lg-05 bg-body Regular shadow">
                         <div class="guillemets-rouge"> 
                             <img src="img/‘’(1).png " alt="">
                         </div>
                         <div>
                             <p class="m-4 lh-lg fst-italic">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,alley a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         </div>
-                        <div class="guillemets-noir w-100">
+                        <div class="guillemets-noir w-100 card-footer">
                             <img src="img/‘’.png" class="img-guillements-noir" alt="">
                         </div>
                     <br>
@@ -136,14 +144,14 @@
                     </div>
                 </div>
                 <div class="col-xl-6 col-12 mt-xl-auto mt-5">
-                    <div class="petite-histoire w-50 w-lg-75 mx-auto mx-lg-05 bg-body">
+                    <div class="petite-histoire mx-auto mx-lg-05 bg-body Regular shadow">
                         <div class="guillemets-rouge"> 
                             <img src="img/‘’(1).png " alt="">
                         </div>
                         <div>
                             <p class="m-4 lh-lg fst-italic">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,alley a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         </div>
-                        <div class="guillemets-noir w-100">
+                        <div class="guillemets-noir w-100 card-footer">
                             <img src="img/‘’.png" class="img-guillements-noir" alt="">
                         </div>
                     <br>
@@ -161,12 +169,12 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-</section>
+</section> -->
             
                 <!-- Notre pédagogie -->
 
-<h1 class="fw-bold  mt-5 mb-5 titre">Notre pédagogie</h1><br><br>
-<section class="container">
+<!-- <h1 class="fw-bold  mt-5 mb-5 titre">Notre pédagogie</h1> -->
+<!-- <section class="container">
         <div class="row mt-5 ms-2">
             <div class="col-lg-7">
                 <iframe src="https://www.youtube.com/embed/0PeqnLq12V8" class="video-pedagogie h-100" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -238,12 +246,12 @@
             <img src="img/cercleCouper.png" class="cercle-couper d-none d-xl-inline-block" alt="Img incompatible avec le navigateur">
             <img src="img/cercleDeco.png" class="cercle-deco d-none d-xl-inline-block" alt="Img incompatible avec le navigateur">
         </div>
-</section>
+</section> -->
 
-            <!-- Nos valeurs -->
+                <!-- Nos valeurs -->
 
-<h1 class="fw-bold  mt-5 mb-5 titre">Nos valeurs</h1><br><br>
-<section class="container">
+<!-- <h1 class="fw-bold  mt-5 mb-5 titre">Nos valeurs</h1><br><br> -->
+<!-- <section class="container">
         <div class="row">
             <div class="col-lg-5 col-12">
                 <h3 class="tec titre-valeur" id="titreValeur">content</h3>
@@ -299,12 +307,12 @@
                     </div>
             </div>
         </div>
-</section> 
+</section>  -->
 
-            <!-- Nos chiffres -->
+                <!-- Nos chiffres -->
 
- <h1 class="fw-bold  mt-5 mb-5 titre">Nos chiffres</h1><br><br>
-<section class="container-fluid chiffre">
+ <!-- <h1 class="fw-bold  mt-5 mb-5 titre">Nos chiffres</h1><br><br> -->
+<!-- <section class="container-fluid chiffre">
         <div class="row">
             <div class="col-sm-4 mt-5 mb-1">
                 <h2 class="text-light nombre titre">50%</h2>
@@ -321,14 +329,14 @@
                 <p class="text-light text-nombre titre">Enfants sensiblisé.e.s au numérique</p>
             </div>
         </div>
-</section>
+</section> -->
 
-                    <!-- Notre Equipe -->
+                <!-- Notre Equipe -->
 
-<h1 class="fw-bold  mt-5 titre">Notre équipe</h1>
-<br><br>
-<p class="text-equipe text-center text-dark">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<br>   Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br><br><br>
-<section id="carousel-nos-partenaires" class="carousel slide" data-bs-ride="carousel">
+<!-- <h1 class="fw-bold  mt-5 titre">Notre équipe</h1>
+<br><br> -->
+<!-- <p class="text-equipe text-center text-dark">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<br>   Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br><br><br> -->
+<!-- <section id="carousel-nos-partenaires" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="7000">
               <div class="container mt-1 mb-3">
@@ -457,12 +465,12 @@
           <span class="visually-hidden">Next</span>
         </button>
         <br><br>  
-</section>  
+</section>   -->
     
-                    <!-- Recrutement -->
+                <!-- Recrutement -->
 
-<h1 class="fw-bold  mt-5 titre">Recrutement</h1><br><br>
-<section class="container">
+<!-- <h1 class="fw-bold  mt-5 titre">Recrutement</h1><br><br> -->
+<!-- <section class="container">
         <div class="row">
             <div class="col-lg-6 col-12">
                 <img src="img/image1.png" class="shadow img-fluid" alt="icone non pris en cherge par le navigateur">
@@ -591,9 +599,9 @@
                 </div>
             </div>
         </div>
-</section>
+</section> -->
 
-                    <!-- Partenariats    -->
+                <!-- Partenariats    -->
 
 <h1 class="fw-bold  mt-5 titre mt-5">Partenariats</h1><br><br>
 <section id="carousel-nos-partenaire" class="carousel slide" data-bs-ride="carousel">
@@ -667,19 +675,22 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>    
-</section>  
+</section>
 
-                    <!-- Footer -->
+                <!-- Footer -->
 
-<footer class="container-fluid footer mt-5"><br><br><br>
+<!-- <footer class="container-fluid footer">
     <div class="row">
-        <div class="col-md-6 col-xl-3">
-            <img src="img/logoSimplonWhite.png" alt="icone non pris en cherge par le navigateur" class="ms-3"><br><br>
-            <div class="rs">
-                <img src="img/twitterq.png" alt="icone non pris en cherge par le navigateur" class="rs mx-1"> <img src="img/bx_bxl-facebook.png" alt="icone non pris en cherge par le navigateur" class="rs mx-1"><img src="img/uil_instagram.png" alt="icone non pris en cherge par le navigateur" class="rs mx-1">  <img src="img/logos_youtube-icon.png" alt="icone non pris en cherge par le navigateur" class="rs mx-1">
+        <div class="col-md-6 col-xl-3 mt-5">
+            <img src="img/logoSimplonWhite.png" alt="icone non pris en cherge par le navigateur" class="ms-3"><br>
+            <div class="reseau-social">
+                <img src="img/twitterq.png" alt="icone non pris en cherge par le navigateur" class="rs"> 
+                <img src="img/bx_bxl-facebook.png" alt="icone non pris en cherge par le navigateur" class="rs">
+                <img src="img/uil_instagram.png" alt="icone non pris en cherge par le navigateur" class="rs"> 
+                <img src="img/logos_youtube-icon.png" alt="icone non pris en cherge par le navigateur" class="rs">
             </div>
         </div>
-        <div class="col-md-6 col-xl-3 text-light">
+        <div class="col-md-6 col-xl-3 mt-5 text-light">
             <h2 class="">Voir plus</h2><br>
             <a href="#" class="link-a">A propos</a><br>
             <a href="#" class="link-a">Notre histoire</a><br>
@@ -687,36 +698,36 @@
             <a href="#" class="link-a">Politique de confidentialité</a><br>
             <a href="#" class="link-a">FAQ</a>
         </div>
-        <div class="col-md-6 col-xl-3 text-light">
+        <div class="col-md-6 col-xl-3 mt-5 text-light">
             <h2>Coordonnées</h2><br>
             <p class="p-footer">Cité keur Goor Gi<br>
                 Dakar, Sicap, Libeté 2<br>
-                Senegal</p><br><br>
+                Senegal</p>
             <p class="p-footer">simplon@email.com<br>
                 help@simplon.com<br>
                 (221) 77 456 78 90<br>
                 (221) 77 654 32 10</p>
         </div>
-        <div class="col-md-6 col-xl-3 text-light">
+        <div class="col-md-6 col-xl-3 mt-5 text-light">
             <h2>Notre Newsletter</h2><br>
-            <p class="p-footer">Souscrivez-vous à notre<br> newsletter pour ne manquer<br> aucune de nos activités</p><br><br>
-            <div class="input-group">
+            <p class="p-footer">Souscrivez-vous à notre<br> newsletter pour ne manquer<br> aucune de nos activités</p><br>
+            <div class="input-group mb-5">
                 <input type="text" class="form-control form-control-lg" placeholder="Email">
                 <div class="input-group-append">
                     <button class="btn btn-red text-light h-100" type="button" id="texte-bouton">Joindre</button>
-                </div><br>
+                </div>
         </div>
-    </div><br>
-    <div class="row bande-footer ms-0">
-        <div class="col-6">
+    </div>
+    <div class="row bande-footer ms-0 p-2">
+        <div class="col-6 mt-2">
             <p>© 2021 Simplon. All rights reserved.</p>
         </div>
-        <div class="col-6">
+        <div class="col-6 mt-2">
             <p class="text-end ">Made with <img src="img/coeur.png" alt="icone non pris en cherge par le navigateur"><strong> by SimplonP4</strong></p>
         </div>
     </div>
     </div>
-</footer>
-    <script src="script.js"></script>
+</footer> -->
+<script src="script.js"></script>
 </body>
 </html>
