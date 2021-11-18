@@ -17,5 +17,6 @@
 - couleur des , titres , buttons , etc...
 
 ## NB: le header et le footer c'est a notre groupe de les faires.
-## Pour l'arborescence du projet. mettre le contenu du projet dans un dossier (dossier_name/contenu_projet):
-## veuillez nommer votre fichier index par votre partie (exmple: fabrique.html)
+## Pour l'arborescence du projet:
+- mettre le contenu du projet dans un dossier (dossier_name/contenu_projet)
+- veuillez nommer votre fichier index par votre partie (exmple: fabrique.html)
