@@ -285,3 +285,15 @@ h1{
     color: white;
     font-size: 20px;
 }
+
+ol.carousel-indicators {
+    position: absolute;
+    bottom: 5px;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+ }
+.carousel-indicators button{
+    border: 10px solid #CE0033;
+}
