@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+font-family: 'Nunito Sans', sans-serif;
+}
+.fabrique{
+    border-bottom: #CE0033 5px solid;
+}
+.femme_simplon{
+    border-radius: 20px;
+    height: 800px;
+    width: 95%;
+    margin-top: -790px;
+    margin-left: -10px;
+    z-index: 1000;
+}
+.cadre{
+    height: 800px;
+    width: 95%;
+    border-radius: 20px;
+    margin-left: 15px;
+    z-index: 1; 
+    background-color: #CE0033;
+}
+.video-pedagogie{
+    width: 95%;
+}
+.cercle-deco{
+    width: 10%;
+    height: 10%;
+    margin-top: -150px;
+    margin-left: -790px;
+    z-index: 3;
+    opacity: 100%;
+    position: relative;
+}
+.cercle-couper{
+    width: 10%;
+    height: 10%;
+    margin-top: -830px;
+    margin-left: 650px;
+    z-index: 3;
+    opacity: 100%;
+    position: relative;
+}
+.bg-histoire{
+    rotate: 5deg;
+    height: 548px;
+    margin-left: 100px;
+    border-radius: 3%;
+}
+.petite-histoire {
+    margin-left: 20%;
+    margin-top: 5%;
+    position: relative;
+    border-radius: 20px;
+    border: solid 0.01px rgb(223, 185, 185);
+    height: 100%;
+    background-color: red;
+  }
+  .petite-histoire:before {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 88%;
+    border-radius: 20px;
+    top: -8px;
+    left: -22px;
+    background-color: #CE0033; 
+    border: #CE0033 0.1px solid;
+    box-shadow: -10px 3px 0px 10px #CE0033;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+  .cadre-petite-histoire{
+      height: 120%;
+  }
+.blog{
+    z-index: 5;
+    background-color: white;
+    border-bottom: 10px solid #CE0033;
+    width: 40%;
+}
+.guillemets-rouge{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 5%;
+    height: 5%;
+}
+.guillemets-noir{
+    margin-right: 20px;
+    width: 5%;
+    height: 5%;
+    background-color: white;
+    border-top: white solid 10px;
+}
+.deco-principal{
+    border-bottom-right-radius: 100px;
+    margin-left: -1.5%;
+    margin-top: 20%;
+    z-index: 100;
+    background-color: #CE0033;
+    color: white;
+    border-bottom: 20px #ffffff81 solid;
+    box-shadow: 0px 20px#ce003442;
+}
+
+h1{
+    color: #CE0033;
+}
+.title-ps{
+    font-size: 40px;
+}
+.annee{
+    font-size: 65px;
+    margin-top: -20px;
+    margin-right: 50px;
+}
+.buton{
+    width: 200px;
+    height: 60px;
+    border-radius: 60px;
+    font-size: 25px;
+    background-color: #CE0033;
+}
+.numero{
+    font-size: 35px;
+    background-color: rgb(245, 186, 186);
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin-top: 30px;
+    /* margin-left: 20px; */
+}
+.rectangle{
+    width: 95%;
+    margin-left: 20px;
+    height: 23%;
+    border-radius: 5px;
+    border: 0.1px solid gainsboro;
+    cursor: pointer;
+}
+.donnee{
+    margin-top: 35px;
+    /* margin-left: 25px; */
+}
+
+.chiffre{
+    background-image: url('img/bgChiffre.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nombre{
+    font-weight: bold;
+    font-size: 60px;
+}
+.text-nombre{
+    font-size: 20px;
+}
+.text-equipe{
+    font-size: 20px;
+}
+.cart-equipe{
+    border: solid 0.1px white;
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    height: 550px;
+    padding: 40px;
+}
+.joindre-fichier{
+    text-decoration: none;
+}
+.message{
+    height: 500px;
+}
+.offre-en-cours{
+    background-color: #F9F4F4;
+    padding: 10px;
+    border-radius: 20px;
+}
+.accordion-item{
+    background-color: #F9F4F4;
+}
+.accordion-button{
+    background-color: #F9F4F4;
+    font-weight: bold;
+}
+.index-offre{
+    background-color: white;
+    padding: 20px;
+    width: 170px;
+    border-radius: 20px;
+}
+.buton-postuler{
+    width: 140px;
+    height: 40px;
+    border-radius: 60px;
+    font-size: 15px;
+    background-color: #CE0033;
+}
+.href-afficer-plus{
+    text-align: end;
+}
+.footer{
+    background-image: url('img/Footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.reseau-social{
+    padding: 10px;
+}
+.p-footer{
+    font-size: 20px;
+    opacity: 75%;
+}
+.link-a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    opacity: 75%;
+}
+.buton-contact{
+    width: 100px;
+    height: 40px;
+    border-radius: 60px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #CE0033;
+}
+.buton-valeur:hover{
+    background-color: rgba(238, 188, 188, 0.123);
+}
+.triangle{
+    border: solid black 1px;
+}
+.titre{
+    text-align: center;
+    color: #CE0033;
+}
+@media screen and (max-width:950px) {
+    .petite-histoire:before{
+        display: none;
+        text-align: center;
+    }
+    .deco-principal{
+        margin-top: 0;
+    }
+    .blog-notre-pedagogie{
+        width: 90%;
+        border-bottom: white;
+        border-left: #CE0033 solid 10px;
+        margin-bottom: 25px;
+    }
+    .title-ps{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:950px) and (min-width: 600px) {
+    .btn-valeur-btn{
+        font-size: 15px;
+    }
+}
+.bande-footer{
+    background-color: #CE0033;
+}
+.btn-red{
+    background-color: #CE0033;
+    color: white;
+}
+.btn-valeur{
+    background-color: #CE0033;
+    width: 100%;
+    font-size: 13px;
+}
+.btn-valeur1{
+    background-color: #CE0033;
+    width: 100%;
+    font-size: 13px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.btn-valeur2{
+    background-color: #CE0033;
+    width: 100%;
+    font-size: 13px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.tec{
+    color: #CE0033;
+}
+.navbar{
+    background-color: white;
+    position: fixed ;
+    z-index: 2000;
+}
+.ul-navbar{
+    --bs-scroll-height: 100px;
+    font-weight: bold;
+    color: black;
+}
+.img-guillements-noir{
+    float: right;
+    margin-top:-10%;
+    margin-right:5%;
+}
+#texte-bouton{
+    margin-right: 130px;
+}
+
+.bande-footer div p{
+    color: white;
+    font-size: 20px;
+}
+
+ol.carousel-indicators {
+    position: absolute;
+    bottom: 5px;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+ }
